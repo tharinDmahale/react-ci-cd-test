@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import MyFirstComponent from './components/MyFirstComponent';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Hello React!</h1>
+        <MyFirstComponent />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
