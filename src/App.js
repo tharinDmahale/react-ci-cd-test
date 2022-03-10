@@ -5,6 +5,7 @@ import MyFirstComponent from './components/MyFirstComponent';
 function App() {
   return (
     <div className="App">
+      <h1>Hello React!</h1>
       <header className="App-header">
         <MyFirstComponent />
         <img src={logo} className="App-logo" alt="logo" />
